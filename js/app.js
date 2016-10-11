@@ -35,16 +35,22 @@
     }
 
     // Exercise 7:  0 1 2 3 0 1 2 3 0 1 2 3
-    var allThree = function() {
-    for (var i = 0; i < 4; i ++) {
-      console.log(i);
-    }
-        for (var i = 0; i < 4; i ++) {
-          console.log(i);
-        }
-            for (var i = 0; i < 4; i ++) {
-              console.log(i);
-            }
-    }
+    // var allThree = function() {
+    // for (var i = 0; i < 4; i ++) {
+    //   console.log(i);
+    // }
+    //     for (var i = 0; i < 4; i ++) {
+    //       console.log(i);
+    //     }
+    //         for (var i = 0; i < 4; i ++) {
+    //           console.log(i);
+    //         }
+    // }
+    //
+    // allThree();
 
-    allThree();
+    for (var i = 1; i <= 3; i ++) {
+      for (var j = 0; j < 4; j ++) {
+      console.log(j);
+      }
+    }
